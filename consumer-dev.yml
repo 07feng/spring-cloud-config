@@ -1,5 +1,5 @@
 server:
-  port: 9003
+  port: 9002
 spring:
   application:
     name: consumer-server
@@ -10,3 +10,5 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
+test:
+  value: test
